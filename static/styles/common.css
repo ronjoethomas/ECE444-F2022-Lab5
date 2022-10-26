@@ -17,7 +17,7 @@ h3 {
     margin: 20px auto;
 }
 
-select.common-page-form, input.common-page-form {
+.common-page-form select, .common-page-form input{
     background-color: beige;
     border-radius: 5px;
     border-color: transparent;
