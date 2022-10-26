@@ -1,0 +1,30 @@
+.results-page-table-container {
+    margin: 20px, auto;
+}
+
+table.results-page-table-container {
+    border-radius: 20px;
+    padding: 20px;
+    border-collapse: separate;
+}
+
+td.table.results-page-table-container{
+    padding: 3px;
+    border-left: 1px solid #00204E;
+    border-bottom: 1px solid #00204E;
+}
+
+th.table.results-page-table-container{
+    text-align: center;
+    position: sticky;
+    top: 2px;
+    z-index: 10;
+    background-color: #00204E;
+    color: #FFFFFF;
+    border-left: 1px solid #00204E;
+    border-bottom: 1px solid #00204E;
+}
+
+th:last-child.results-page-table-container, tb:last-child.results-page-table-container {
+    border-right: 1px solid #00204E;
+}
